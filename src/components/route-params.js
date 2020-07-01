@@ -78,6 +78,7 @@ function paramsHeader(schema, type, validations, outputLabel, status) {
 function paramsRow(schema, field) {
   const flags = schema._flags || {};
   const required = flags && flags.presence === 'required';
+  const optional = flags && flags.presence === 'optional';
   const valids = Array.from(schema._valids._set);
   const invalids = Array.from(schema._invalids._set).filter(
     v => v !== '' && v !== Infinity && v !== -Infinity,
@@ -112,6 +113,7 @@ function paramsRow(schema, field) {
     return text !== '' ? `(${text.trim()})` : '';
   };
   return m('tr', [
+    m('td', optional ? '否' : '是'),
     m('td', field + (flags.default !== undefined ? ` = ${flags.default}` : '')),
     m('td', [
       renderFieldType(),
