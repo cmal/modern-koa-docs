@@ -53,5 +53,8 @@
   },
   "__npminstall_done": true,
   "_from": "modern-koa-docs@3.0.3",
-  "_resolved": "https://registry.npm.alibaba-inc.com/modern-koa-docs/download/modern-koa-docs-3.0.3.tgz"
+  "_resolved": "https://registry.npm.alibaba-inc.com/modern-koa-docs/download/modern-koa-docs-3.0.3.tgz",
+"publishConfig": {
+  "registry": "https://registry.npm.alibaba-inc.com"
+}
 }
