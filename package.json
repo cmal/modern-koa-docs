@@ -1,15 +1,11 @@
 {
-  "name": "modern-koa-docs",
+  "name": "m-koa-docs",
   "version": "3.0.3",
   "description": "An automatic documentation generator for koa.js APIs ",
   "main": "src/main.js",
   "scripts": {
     "test": "jest",
     "example": "nodemon example/server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com:soshnikov/modern-koa-docs.git"
   },
   "keywords": [
     "koa",
@@ -51,10 +47,7 @@
     "nodemon": "^1.18.11",
     "prettier": "^1.17.0"
   },
-  "__npminstall_done": true,
-  "_from": "modern-koa-docs@3.0.3",
-  "_resolved": "https://registry.npm.alibaba-inc.com/modern-koa-docs/download/modern-koa-docs-3.0.3.tgz",
-"publishConfig": {
-  "registry": "https://registry.npm.alibaba-inc.com"
-}
+  "publishConfig": {
+    "registry": "https://registry.npm.alibaba-inc.com"
+  }
 }
