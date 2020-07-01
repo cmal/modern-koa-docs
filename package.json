@@ -1,5 +1,5 @@
 {
-  "name": "@ali/m-koa-docs",
+  "name": "m-koa-docs",
   "version": "3.0.3",
   "description": "An automatic documentation generator for koa.js APIs ",
   "main": "src/main.js",
