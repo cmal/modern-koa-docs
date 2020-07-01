@@ -113,7 +113,7 @@ function paramsRow(schema, field) {
     return text !== '' ? `(${text.trim()})` : '';
   };
   return m('tr', [
-    m('td', optional ? '否' : '是'),
+    m('td', optional ? '是' : '否'),
     m('td', field + (flags.default !== undefined ? ` = ${flags.default}` : '')),
     m('td', [
       renderFieldType(),
